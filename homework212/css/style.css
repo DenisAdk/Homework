@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+    background: #f5f5f5;
+}
+
+.form {
+    max-width: 500px;
+    width: 90%; 
+    margin: 40px;
+    padding: 20px;
+    margin-bottom: 24px;
+    box-sizing: border-box;
+}
+fieldset{
+    width: 350px;
+    height: 460px;
+    border-radius: 10px;
+    margin: 20px;
+}
+input, textarea, button {
+    display: block;
+    margin-bottom: 10px;
+} 
+label, input, textarea {
+    margin-bottom: 10px;
+    
+} 
+label{
+    display: block;
+    margin-top: 20px;
+} 
+label, input{
+    display: block;
+    margin-top: 8px;
+}
+textarea { 
+    min-height: 15px;
+    max-height: 100px;
+    min-width: 140px ;
+    max-width: 140px;
+}
+.checkbox {
+    display: flex; 
+    align-items: center;
+} 
+button {
+    cursor: pointer;
+}
